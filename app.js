@@ -1,4 +1,4 @@
-const colors = ["green", "red", "rgba(133, 122, 200)", "#f1f5f8"];
+const colors = ["LightCoral", "HotPink", "DeepPink", "LemonChiffon", "Khaki", "PapayaWhip", "Thistle", "Plum", "SlateBlue", "Chartreuse", "PaleGreen", "LightCyan", "PowderBlue", "Cornsilk", "HoneyDew", "Azure", "GhostWhite", "SeaShell", "OldLace", "LavenderBlush"];
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
@@ -13,3 +13,5 @@ btn.addEventListener("click", function() {
 function getRandomNumber() { 
   return Math.floor(Math.random() * colors.length);
 }
+
+lightsky
